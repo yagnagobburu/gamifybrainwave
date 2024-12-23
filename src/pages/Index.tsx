@@ -1,6 +1,8 @@
 import { useState } from "react";
 import SubjectCard from "@/components/SubjectCard";
 import SpeedMathGame from "@/components/SpeedMathGame";
+import PeriodicTableGame from "@/components/PeriodicTableGame";
+import CrissCrossPuzzle from "@/components/CrissCrossPuzzle";
 
 const Index = () => {
   const [selectedSubject, setSelectedSubject] = useState<"math" | "chemistry" | "reasoning" | null>(
@@ -9,6 +11,14 @@ const Index = () => {
 
   if (selectedSubject === "math") {
     return <SpeedMathGame onBack={() => setSelectedSubject(null)} />;
+  }
+
+  if (selectedSubject === "chemistry") {
+    return <PeriodicTableGame onBack={() => setSelectedSubject(null)} />;
+  }
+
+  if (selectedSubject === "reasoning") {
+    return <CrissCrossPuzzle onBack={() => setSelectedSubject(null)} />;
   }
 
   return (
