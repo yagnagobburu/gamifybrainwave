@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { Brain, Calculator, Flask } from "lucide-react";
+import { Brain, Calculator, FlaskConical } from "lucide-react";
 
 interface SubjectCardProps {
   subject: "math" | "chemistry" | "reasoning";
@@ -18,7 +18,7 @@ const SubjectCard = ({ subject, onClick }: SubjectCardProps) => {
     chemistry: {
       title: "Chemistry",
       description: "Explore the world of elements and reactions",
-      icon: Flask,
+      icon: FlaskConical,
       gradient: "from-pink-500 to-pink-700",
     },
     reasoning: {
