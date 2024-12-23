@@ -21,6 +21,17 @@ const elements: Element[] = [
   { symbol: "O", name: "Oxygen", atomicNumber: 8 },
   { symbol: "F", name: "Fluorine", atomicNumber: 9 },
   { symbol: "Ne", name: "Neon", atomicNumber: 10 },
+  { symbol: "Na", name: "Sodium", atomicNumber: 11 },
+  { symbol: "Mg", name: "Magnesium", atomicNumber: 12 },
+  { symbol: "Al", name: "Aluminum", atomicNumber: 13 },
+  { symbol: "Si", name: "Silicon", atomicNumber: 14 },
+  { symbol: "P", name: "Phosphorus", atomicNumber: 15 },
+  { symbol: "S", name: "Sulfur", atomicNumber: 16 },
+  { symbol: "Cl", name: "Chlorine", atomicNumber: 17 },
+  { symbol: "Ar", name: "Argon", atomicNumber: 18 },
+  { symbol: "K", name: "Potassium", atomicNumber: 19 },
+  { symbol: "Ca", name: "Calcium", atomicNumber: 20 },
+  // Add more elements as needed
 ];
 
 interface PeriodicTableGameProps {
